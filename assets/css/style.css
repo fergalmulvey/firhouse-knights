@@ -27,7 +27,7 @@ h3 {
 /* Header */
 header {
     background-color: #3a3a3a;
-    padding: 0 1rem;
+    padding: 0 10px;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -45,7 +45,7 @@ header a {
 
 /* Overrides above so logo is visible */
 #home {
-    color:lightgray;
+    color: lightgray;
     text-transform: uppercase;
 }
 
@@ -64,7 +64,7 @@ header a {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* Navbar styles with dropdown toggle */
+/* Navbar styles */
 nav {
     position: absolute;
     background-color: lightgrey;
@@ -76,7 +76,7 @@ nav {
     top: 100%;
 }
 
-/* Nav toggle */
+/* Burger Icon is checked*/
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -89,4 +89,18 @@ nav {
     font-size: 2.5rem;
     align-self: center;
     color: lightgray;
+}
+
+/* Main Content */
+
+main {
+    margin-top: 78px;
+    display:flex;
+}
+
+#hero {
+    background: url("assets\images\ali-karimiboroujeni-O8cnKJLwkrQ-unsplash.jpg") no-repeat center center/cover;
+    height: 600px;
+    width:100%
+    
 }
