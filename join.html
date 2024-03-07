@@ -47,10 +47,36 @@
     <!-- Main Content -->
     <main>
         <section id="signup">
-            <form action="">
-                
+
+            <form action="https://formdump.codeinstitute.net" method="post">
+                <h2>Join Us for Fun, Friends and to Play and Learn the Wonderful Game!</h2>
+                <label for="fname">First Name</label>
+                <input type="text" name="fname" id="fname" placeholder="First Name" required>
+                <br>
+                <label for="sname">Surname</label>
+                <input type="text" name="sname" id="sname" placeholder="Surname" required>
+                <br>
+                <label for="email_address">Email Address</label>
+                <input type="email" name="email_address" id="email_address" placeholder="example@fk.ie" required>
+                <br>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="road">Road</label>
+                        <input type="radio" name="running_preference" id="road" value="road" required checked>
+                    </div>
+                    <div>
+                        <label for="trail">Trail</label>
+                        <input type="radio" name="running_preference" id="trail" value="Trail" required>
+                    </div>
+                    <div>
+                        <label for="both">Both</label>
+                        <input type="radio" name="running_preference" id="both" value="both" required>
+                    </div>
+                </div>
+
+                <button type="submit" class="join-button">Let's Run!</button>
             </form>
-            
+
         </section>
     </main>
 
