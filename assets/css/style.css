@@ -45,7 +45,7 @@ header a {
 
 /* Overrides above so logo is visible */
 #home {
-    color: lightgray;
+    color: #ffffff;
     text-transform: uppercase;
 }
 
@@ -67,7 +67,7 @@ header a {
 /* Navbar styles */
 nav {
     position: absolute;
-    background-color: lightgrey;
+    background-color: #ffffff;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -88,7 +88,7 @@ nav {
 .nav-toggle-label {
     font-size: 2.5rem;
     align-self: center;
-    color: lightgray;
+    color: #ffffff;
 }
 
 /* Main Content */
