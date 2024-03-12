@@ -107,6 +107,71 @@ main {
     position: relative;
 }
 
+/* Form */
+#signup {
+    background-image: url("../images/hallway-form.jpg");
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+}
+
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(3, 3, 3, 0.6);
+    padding: 30px;
+}
+
+
+#signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+
+.radio-buttons {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #454b1b;
+    color: #fafafa;
+}
+
+/* Footer */
+#socials {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#socials i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
 /* For screens where logo fits on one line */
 @media screen and (min-width:370px) {
     main {

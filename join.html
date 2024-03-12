@@ -48,33 +48,34 @@
     <main>
         <section id="signup">
 
-            <form action="https://formdump.codeinstitute.net" method="post">
+            <form id = "signup-form" action="https://formdump.codeinstitute.net" method="post">
                 <h2>Join Us for Fun, Friends and to Play and Learn the Wonderful Game!</h2>
                 <label for="fname">First Name</label>
-                <input type="text" name="fname" id="fname" placeholder="First Name" required>
+                <input type="text" name="fname" id="fname" placeholder="First Name" class="text-input" required>
                 <br>
                 <label for="sname">Surname</label>
-                <input type="text" name="sname" id="sname" placeholder="Surname" required>
+                <input type="text" name="sname" id="sname" placeholder="Surname" class="text-input" required>
                 <br>
                 <label for="email_address">Email Address</label>
-                <input type="email" name="email_address" id="email_address" placeholder="example@fk.ie" required>
+                <input type="email" name="email_address" id="email_address" placeholder="example@fk.ie" class="text-input" required>
                 <br>
+                <h4>What is your ELO rating?</h4>
                 <div class="radio-buttons">
                     <div>
-                        <label for="road">Road</label>
-                        <input type="radio" name="running_preference" id="road" value="road" required checked>
+                        <label for="beginner">Under 1000</label>
+                        <input type="radio" name="rating" id="beginner" value="beginner" required checked>
                     </div>
                     <div>
-                        <label for="trail">Trail</label>
-                        <input type="radio" name="running_preference" id="trail" value="Trail" required>
+                        <label for="both">1000 - 1800</label>
+                        <input type="radio" name="rating" id="advanced" value="advanced" required>
                     </div>
                     <div>
-                        <label for="both">Both</label>
-                        <input type="radio" name="running_preference" id="both" value="both" required>
+                        <label for="both">Over 1800</label>
+                        <input type="radio" name="rating" id="master" value="master" required>
                     </div>
                 </div>
 
-                <button type="submit" class="join-button">Let's Run!</button>
+                <button type="submit" class="join-button">Sign up</button>
             </form>
 
         </section>
@@ -82,7 +83,22 @@
 
     <!-- Footer -->
     <footer>
-
+        <ul id = "socials">
+            <li><a href="https://www.facebook.com/" target="_blank" rel="nooper"
+                aria-label="Visit our Facebook page (opens in new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li><a href="https://www.x.com/" target="_blank" rel="nooper"
+                aria-label="Visit our twitter page (opens in new tab)"><i
+                    class="fa-brands fa-x-twitter"></i></a>
+            </li>
+            <li><a href="https://www.youtube.com/" target="_blank" rel="nooper"
+                aria-label="Visit our youtube channel (opens in new tab)"><i
+                    class="fa-brands fa-square-youtube"></i></a>
+            </li>
+            <li><a href="https://www.instagram.com/" target="_blank" rel="nooper"
+                aria-label="Visit our instagram page (opens in new tab)"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
     </footer>
 
     <!-- Font Awesome Kit-->
