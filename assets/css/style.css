@@ -64,6 +64,14 @@ header a {
     border-bottom: 1px solid #3a3a3a;
 }
 
+/* for aligning text content center */
+.center {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+  
+
 /* Navbar styles */
 nav {
     position: absolute;
@@ -94,7 +102,7 @@ nav {
 /* Main Content */
 
 main {
-    margin-top: 78px;
+    margin-top: 85px;
     display:flex;
     flex: 1 0 auto;
     flex-direction: column;
@@ -114,7 +122,6 @@ main {
     margin-bottom: 16px;
     padding: 0 8px;
     justify-content: center;
-    text-align: center;
   }
 
   .column img {
@@ -123,13 +130,17 @@ main {
     height:400px;
     object-fit: cover;
 }
+
+.column h2{
+    text-align: center;
+}
   
   /* Display the columns below each other instead of side by side on small screens */
   @media screen and (max-width: 650px) {
     .column {
-      width: 80%;
+      width: 90%;
       display: block;
-      align-self: center;
+      margin-left: 5%;
     }
   }
   
@@ -152,6 +163,7 @@ main {
   
   .title {
     color: grey;
+    text-align: center;
   }
 
 /* Form */
