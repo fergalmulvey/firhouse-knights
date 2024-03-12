@@ -69,6 +69,7 @@ header a {
     display: flex;
     justify-content: center;
     margin-bottom: 5px;
+    padding: 10px;
   }
   
 
@@ -102,7 +103,7 @@ nav {
 /* Main Content */
 
 main {
-    margin-top: 85px;
+    margin-top: 80px;
     display:flex;
     flex: 1 0 auto;
     flex-direction: column;
@@ -234,10 +235,48 @@ main {
 /* For screens where logo fits on one line */
 @media screen and (min-width:370px) {
     main {
-        margin-top: 50px;
+        margin-top: 40px;
     }
 
     .nav-toggle-label {
         font-size: 2rem;
     }
 }
+
+/* Media query: screens with room to display full menu (900px and up) */
+@media screen and (min-width: 900px) {
+
+    /* Header */
+    /* Links in Header */
+    header a {
+    color: #ffffff;
+    }
+
+    .active {
+        border-bottom: 1px solid #ffffff;
+    }
+
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+        background-color: #3a3a3a;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+    main {
+        margin-top: 60px;
+    }
+}   
