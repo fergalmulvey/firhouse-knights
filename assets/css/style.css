@@ -109,13 +109,10 @@ main {
     flex-direction: column;
 }
 
-#hero {
-    height: 600px;
-    width:100%;
-    background: url("../images/hero.jpg") no-repeat center center/cover;
-    position: relative;
+.welcome img {
+height:auto;
+width:100%;
 }
-
 /* Three columns side by side */
 .column {
     float: left;
@@ -188,7 +185,6 @@ main {
     margin-bottom: 20px;
 }
 
-
 .text-input {
     background: transparent;
     color: #fafafa;
@@ -203,8 +199,8 @@ main {
 
 .radio-buttons {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    display: block;
+    justify-content: space-evenly;
 }
 
 
@@ -240,6 +236,10 @@ main {
 
     .nav-toggle-label {
         font-size: 2rem;
+    }
+
+    .welcome img {
+        width:50%;
     }
 }
 
@@ -277,6 +277,6 @@ main {
         display: none;
     }
     main {
-        margin-top: 60px;
+        margin-top: 55px;
     }
 }   
