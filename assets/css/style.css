@@ -64,13 +64,22 @@ header a {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* for aligning text content center */
-.center {
-    display: flex;
+/* for aligning text content centre */
+.centre {
+    display: block;
     justify-content: center;
     margin-bottom: 5px;
     padding: 10px;
   }
+
+  .centre h1{
+    text-align: center;
+  }
+
+  .centre img {
+    width:100%;
+    height:auto;
+    }
   
 
 /* Navbar styles */
@@ -109,10 +118,6 @@ main {
     flex-direction: column;
 }
 
-.welcome img {
-height:auto;
-width:100%;
-}
 /* Three columns side by side */
 .column {
     float: left;
@@ -214,6 +219,13 @@ width:100%;
 }
 
 /* Footer */
+footer{
+    background-color: #3a3a3a;
+    text-align: center;
+    padding: 1em;
+    color: #fafafa;
+}
+
 #socials {
     text-align: center;
     padding: 20px 0;
@@ -225,7 +237,7 @@ width:100%;
 #socials i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #ffffff;
 }
 
 /* For screens where logo fits on one line */
@@ -238,9 +250,13 @@ width:100%;
         font-size: 2rem;
     }
 
-    .welcome img {
-        width:50%;
-    }
+    .centre {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+      }
+    
 }
 
 /* Media query: screens with room to display full menu (900px and up) */
@@ -276,7 +292,12 @@ width:100%;
     .nav-toggle-label {
         display: none;
     }
+
     main {
         margin-top: 55px;
+    }
+
+    .centre img{
+        width: 40%;
     }
 }   
