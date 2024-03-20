@@ -70,16 +70,27 @@ header a {
     justify-content: center;
     margin-bottom: 5px;
     padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .centre h1{
+  .centre h1, h2{
     text-align: center;
   }
 
   .centre img {
     width:100%;
     height:auto;
-    }
+  }
+
+  table{
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+
   
 
 /* Navbar styles */
