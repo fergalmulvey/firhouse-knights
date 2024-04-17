@@ -73,26 +73,24 @@ header a {
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
-  .centre h1, h2{
+.centre h1,
+h2 {
     text-align: center;
-  }
+}
 
-  .centre img {
-    width:100%;
-    height:auto;
-  }
+.centre img {
+    width: 100%;
+    height: auto;
+}
 
-  table{
+table {
     padding: 1em;
     margin-left: auto;
     margin-right: auto;
 
-  }
-
-
-  
+}
 
 /* Navbar styles */
 nav {
@@ -132,7 +130,7 @@ nav {
 
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
-    background-color:rgba(58, 58, 58, 0.7);
+    background-color: rgba(58, 58, 58, 0.7);
     font-size: 130%;
     position: absolute;
     bottom: 30px;
@@ -174,7 +172,7 @@ nav {
     margin: 5px 0;
 }
 
-button{
+button {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px;
@@ -208,7 +206,7 @@ button{
 
 main {
     margin-top: 80px;
-    display:flex;
+    display: flex;
     flex: 1 0 auto;
     flex-direction: column;
 }
@@ -222,42 +220,43 @@ main {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
-  .column img {
+.column img {
     float: left;
     width: 300px;
-    height:400px;
+    height: 400px;
     object-fit: cover;
 }
 
-.column h2{
+.column h2 {
     text-align: center;
 }
-  
-  
-  
-  /* Add some shadows to create a card effect */
-  .card {
+
+
+
+/* Add some shadows to create a card effect */
+.card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
-  
-  /* Some left and right padding inside the container */
-  .container {
+}
+
+/* Some left and right padding inside the container */
+.container {
     padding: 0 16px;
-  }
-  
-  /* Clear floats */
-  .container::after, .row::after {
+}
+
+/* Clear floats */
+.container::after,
+.row::after {
     content: "";
     clear: both;
     display: table;
-  }
-  
-  .title {
+}
+
+.title {
     color: grey;
     text-align: center;
-  }
+}
 
 /* Form */
 #signup {
@@ -309,7 +308,7 @@ main {
 }
 
 /* Footer */
-footer{
+footer {
     background-color: #3a3a3a;
     text-align: center;
     padding: 1em;
@@ -345,26 +344,26 @@ footer{
         margin-left: auto;
         margin-right: auto;
         width: 70%;
-      }
-    
+    }
+
 }
 
 /* Display the columns below each other instead of side by side on small screens */
 @media screen and (max-width: 650px) {
     .column {
-      width: 90%;
-      display: block;
-      margin-left: 5%;
+        width: 90%;
+        display: block;
+        margin-left: 5%;
     }
-  }
+}
 
 @media screen and (min-width: 650px) {
-    #signup-form{
+    #signup-form {
         margin-top: 1em;
         margin-left: 30%;
         margin-right: 30%;
     }
-  }
+}
 
 
 /* Media query: screens with room to display full menu (900px and up) */
@@ -373,7 +372,7 @@ footer{
     /* Header */
     /* Links in Header */
     header a {
-    color: #ffffff;
+        color: #ffffff;
     }
 
     .active {
@@ -405,8 +404,8 @@ footer{
         margin-top: 55px;
     }
 
-    .centre img{
+    .centre img {
         width: 40%;
     }
 
-}   
+}
